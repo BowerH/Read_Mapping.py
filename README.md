@@ -44,10 +44,3 @@ python read_mapping.py -r reference.fasta -q reads.fastq -o output.sam
 ## Output:
 The script will generate an output file in SAM (Sequence Alignment/Map) format, detailing the alignment of reads to the reference genome.
 
-## Notes
-
-This script was developed for educational purposes as part of a bioinformatics programming course. 
-
-While functional, it may not include all features or optimizations found in production-level read mapping tools.
-
-For large-scale or production use, consider using established bioinformatics tools like BWA or Bowtie.
